@@ -1,0 +1,27 @@
+<h2>📦 Product List</h2>
+
+<form [formGroup]="productForm" (ngSubmit)="addProduct()">
+  <input formControlName="name" placeholder="Product Name" required />
+  <input type="number" formControlName="price" placeholder="Price" required />
+  <button type="submit">Add Product</button>
+</form>
+
+<hr />
+
+@for (product of products(); track product.name) {
+  <div (click)="selectProduct(product)" style="cursor: pointer; margin: 8px 0;">
+    🛒 {{ product.name }} - ₹{{ product.price }}
+  </div>
+} @empty {
+  <p>No products added yet.</p>
+}
+
+<hr />
+
+@if (selectedProduct()) {
+  <div style="margin-top: 16px;">
+    <h3>🔍 Selected Product Details</h3>
+    <p><strong>Name:</strong> {{ selectedProduct()?.name }}</p>
+    <p><strong>Price:</strong> ₹{{ selectedProduct()?.price }}</p>
+  </div>
+}

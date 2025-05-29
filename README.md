@@ -10,11 +10,23 @@ ng new angular20-app
 
 ```
 
-node version required  ->  minimum of v20.19.
+✅ node version required  ->  minimum of v20.19.
 
 option in v20:
 
 √ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? Yes
+
+√ Angular 20 encourages signals for reactive state management.
+
+🧠 Signals for Reactive State
+
+🎨 Angular 20 introduces new control flow syntax  (@for, @if)
+
+📝 Typed reactive forms
+
+💾 Local storage sync
+
+https://stackblitz.com/edit/demo-angular-standalone-components?file=README.md
 
 Enable File Name Suffixes (Optional)
 
