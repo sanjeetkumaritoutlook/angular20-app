@@ -2,6 +2,30 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
 
+## Set up Angular v20 application
+```bash
+npm install -g @angular/cli@20
+
+ng new angular20-app
+
+```
+
+node version required  ->  minimum of v20.19.
+
+option in v20:
+
+√ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? Yes
+
+Enable File Name Suffixes (Optional)
+
+Angular 20 disables suffixes by default. If you want to enable suffixes (e.g., app.component.ts), edit your
+
+angular.json as shown earlier or run:
+
+```bash
+ng config schematics.@schematics/angular:component.suffix "Component"
+```
+
 ## Development server
 
 To start a local development server, run:
