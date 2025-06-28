@@ -37,7 +37,10 @@ angular.json as shown earlier or run:
 ```bash
 ng config schematics.@schematics/angular:component.suffix "Component"
 ```
+## generate environments folder
+ng generate environments
 
+ng generate environments --development --staging
 ## Development server
 
 To start a local development server, run:

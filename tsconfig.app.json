@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "fluid.ts"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]
