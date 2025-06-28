@@ -33,9 +33,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+         path: ~/.npm
+         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+         restore-keys: |
+          ${{ runner.os }}-node-
+
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci || npm install --force
    #Angular uses client-side routing. GitHub Pages, by default, doesn't understand Angular's routing structure and tries to fetch files directly from the angular20-app/ directory, which doesn't exist as a physical path.
    #GitHub Pages doesn't support fallback routing for Single Page Applications (SPA).
       - name: Build Angular app
