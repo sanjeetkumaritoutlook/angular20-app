@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {Product} from './product/product';
 import { Rte } from './rte/rte';
+import { Porsche } from './porsche/porsche';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte],
+  imports: [RouterOutlet,Product,Rte,Porsche],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

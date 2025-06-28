@@ -41,6 +41,12 @@ ng config schematics.@schematics/angular:component.suffix "Component"
 ng generate environments
 
 ng generate environments --development --staging
+
+## using porsche design system
+https://designsystem.porsche.com/v3/news/changelog/
+
+https://www.npmjs.com/package/@porsche-design-system/components-angular
+
 ## Development server
 
 To start a local development server, run:
