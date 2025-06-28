@@ -47,6 +47,42 @@ https://designsystem.porsche.com/v3/news/changelog/
 
 https://www.npmjs.com/package/@porsche-design-system/components-angular
 
+## Chinese Design system
+https://www.npmjs.com/package/@aircomponents/components
+
+
+https://github.com/openwebstudio/AirUI
+
+https://github.com/openwebstudio/Air-Docs
+
+
+https://github.com/SisyphusZheng/Components
+
+https://github.com/SisyphusZheng?tab=repositories
+
+
+npm install air-components
+
+https://air.js.org/docs/intro
+
+https://air.js.org/docs/feature-components/chat
+
+SiliconFlow, a China AI infrastructure startup
+
+import { defineCustomElements } from 'air-components/loader';
+
+defineCustomElements();
+
+Zhi Zheng
+
+https://zhi.deno.dev/resume/?lang=en
+
+https://zhi.deno.dev/
+
+https://github.com/SisyphusZheng
+
+
+
 ## Development server
 
 To start a local development server, run:
