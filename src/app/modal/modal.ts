@@ -18,9 +18,9 @@ https://medium.com/netanelbasal/create-a-multi-step-form-in-angular-44cdc5b75cdc
 https://stackblitz.com/edit/multi-step-modal?file=main.ts
 */
 export class Modal implements OnInit {
-  @Input() isVisible: boolean = true; // You can also control this from parent
+ // @Input() isVisible: boolean = true; // You can also control this from parent
   //better to have control from parent show that modal can be shown or hidden when required
-  //@Output() modalClosed = new EventEmitter<void>();
+  @Output() modalClosed = new EventEmitter<void>();
 
  currentStep = 1;
   totalSteps = 3;
@@ -73,8 +73,7 @@ export class Modal implements OnInit {
 
   closeModal() {
     this.formState.clearAll();
-     this.isVisible = false; // Hides the modal
-    //  this.modalClosed.emit();  (hide from the parent 2nd option)
-    // this.showModal = false;
+    // this.isVisible = false; // Hides the modal
+      this.modalClosed.emit(); // (hide from the parent 2nd option)
   }
 }
