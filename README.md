@@ -42,6 +42,37 @@ ng generate environments
 
 ng generate environments --development --staging
 
+## Github marketplace (LLM models)
+
+https://github.com/marketplace
+
+https://github.com/marketplace/models/azure-openai/gpt-4-1
+
+https://github.com/marketplace/models/azure-openai/gpt-4o
+
+https://github.com/marketplace?type=models
+
+playground:
+
+https://github.com/marketplace/models
+
+https://huggingface.co/models
+
+best LLM:
+
+https://zapier.com/blog/best-llm/
+
+https://github.com/openai/gpt-2
+
+replit
+
+Github actions:
+
+https://github.com/marketplace?type=actions
+
+https://github.com/marketplace/actions/checkout
+
+
 ## using porsche design system
 https://designsystem.porsche.com/v3/news/changelog/
 
