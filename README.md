@@ -86,6 +86,45 @@ https://roadmap.sh/python
 
 https://roadmap.sh/frontend 
 
+## ollama local model runner
+
+LLaMA 3, Mistral, Gemma, etc., on your own machine (Mac, Linux, Windows). 
+
+It provides an HTTP API — but only on localhost by default.
+
+Remote API Access? Out-of-the-box:
+
+❌ No hosted API like Gemini, OpenAI, or Claude.
+
+❌ No API key model.
+
+✅ Only runs locally and exposes an API at http://localhost:11434.
+
+Use cloud services that host open models, such as:
+
+Replicate – https://replicate.com/
+
+Together.ai – https://www.together.ai/
+
+Groq – https://groq.com/
+
+https://console.groq.com/keys
+
+Fireworks.ai – https://fireworks.ai/
+
+Perplexity API (for LLaMA-3) - https://playground.perplexity.ai/
+
+These give you API keys and hosted endpoints.
+
+https://pypi.org/project/ollama/
+
+https://github.com/meta-llama/llama
+
+https://github.com/ollama/ollama
+
+https://www.reddit.com/r/ollama/comments/1b608mf/ollama_api/
+
+
 ## Free models in India
 https://aistudio.google.com/apikey
 
@@ -112,6 +151,28 @@ A single Gmail account (Google account) can own or manage multiple projects.
 You can create multiple projects under the same Gmail, each with its own API keys and quotas.
 
 Each project has its own separate billing, quotas, and API keys (unless they share the same billing account).
+
+https://platform.openai.com/docs/models
+
+## Llama models Explore https://ollama.com/library
+## Run gemma:2b
+ollama run gemma:2b
+gemma:2b uses just ~2–3 GB RAM.
+## Run mistral
+ollama run mistral
+mistral only needs ~4 GB of RAM and still performs quite well for general tasks.
+## Run llama3
+ollama run llama3
+Ollama runs models like llama3 entirely on your machine, in memory.
+Even though it's optimized, LLaMA 3 still needs at least ~6 GB of RAM free, and ideally more (8–12 GB total system RAM recommended).
+## List downloaded models: ollama list
+## Pull other models: ollama pull mistral
+ollama pull codellama
+
+## Stop running model:
+ollama stop
+
+using LangChain with Ollama RAG
 
 ## using porsche design system
 https://designsystem.porsche.com/v3/news/changelog/
