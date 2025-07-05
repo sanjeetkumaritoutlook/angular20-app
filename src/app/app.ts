@@ -6,9 +6,10 @@ import { Porsche } from './porsche/porsche';
 import { ChineseDs } from './chinese-ds/chinese-ds';
 import { Modal } from './modal/modal';
 import { CommonModule } from '@angular/common';
+import { FabricUi } from './fabric-ui/fabric-ui';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,FabricUi],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

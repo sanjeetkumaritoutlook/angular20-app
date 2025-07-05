@@ -213,6 +213,10 @@ https://zhi.deno.dev/
 
 https://github.com/SisyphusZheng
 
+## Microsoft Fabric UX design system
+https://www.npmjs.com/package/@fabric-msft/fabric-angular
+
+https://www.npmjs.com/package/@fabric-msft/fabric-web?activeTab=readme
 
 
 ## Development server
