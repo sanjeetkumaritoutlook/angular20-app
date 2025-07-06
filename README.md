@@ -130,6 +130,10 @@ https://aistudio.google.com/apikey
 
 https://generativelanguage.googleapis.com/v1/models?key=YOUR_API_KEY 
 
+https://huggingface.co/models
+
+https://github.com/marketplace?type=models
+
 https://ai.google.dev/gemini-api/docs/models
 
 https://ai.google.dev/gemini-api/docs/rate-limits
