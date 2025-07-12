@@ -19,7 +19,10 @@
     "@fabric-msft/fabric-angular": "^3.0.0-beta.0",
     "@fabric-msft/fabric-web": "^4.0.0-beta.0",
     "@porsche-design-system/components-angular": "^3.28.0",
+    "@telekom/scale-components": "^3.0.0-beta.156",
     "air-components": "^0.0.13",
+    "protean-elements": "^0.5.0",
+    "protean-styles": "^0.5.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

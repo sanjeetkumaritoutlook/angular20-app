@@ -178,6 +178,41 @@ ollama stop
 
 using LangChain with Ollama RAG
 
+## Stencil Enterprise : Design Systems at scale
+
+https://ionic.io/resources/webinars/stencil-enterprise-design-systems-at-scale
+
+https://agado.dev/en/blog/enterprise-design-system-with-stencil/
+
+https://ionic.io/blog/announcing-stencil-enterprise
+
+https://ionic.io/resources/case-studies/volkswagen-group
+
+## Two more design systems on stenciljs
+
+npm install @telekom/scale-components@next
+
+
+https://github.com/telekom/scale
+
+https://www.npmjs.com/package/@telekom/scale-components 
+
+https://www.npmjs.com/package/@telekom/scale-components-neutral
+
+https://telekom.github.io/scale/?path=/docs/scale-design-system--page&globals=locale:en;colorMode:light
+
+https://digitaldesign.volkswagen-group.com/auth/?referer=%2F
+
+https://www.npmjs.com/package/protean-elements
+
+
+https://github.com/proteanstudio/design-system
+
+https://design.protean.studio/#/
+
+https://protean.studio/
+
+
 ## using porsche design system
 https://designsystem.porsche.com/v3/news/changelog/
 

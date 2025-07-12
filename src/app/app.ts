@@ -7,9 +7,10 @@ import { ChineseDs } from './chinese-ds/chinese-ds';
 import { Modal } from './modal/modal';
 import { CommonModule } from '@angular/common';
 import { FabricUi } from './fabric-ui/fabric-ui';
+import { NewExamples } from './new-examples/new-examples';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,FabricUi],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,FabricUi,NewExamples],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
