@@ -42,6 +42,20 @@ ng generate environments
 
 ng generate environments --development --staging
 
+## Przemysaw Debiak 
+Przemysław Debiak
+
+https://www.indiatoday.in/amp/technology/news/story/openais-ai-crushes-coding-legends-in-10-hour-programming-contest-but-one-human-still-beat-the-bot-2758173-2025-07-19
+
+https://www.quora.com/profile/Przemys%C5%82aw-D%C4%99biak
+
+https://github.com/FakePsyho/cpcontests
+
+https://github.com/fakepsyho
+
+https://x.com/FakePsyho/status/1605570944537280512
+
+
 ## Github marketplace (LLM models)
 
 https://github.com/marketplace
