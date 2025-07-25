@@ -61,10 +61,17 @@ https://stackblitz.com/edit/angular-ivy-icdym4qb?file=src%2Fapp%2Fapp.component.
 https://angular-ivy-icdym4qb.stackblitz.io/
 
 
-# Table: Overflow and column adjustments 
+## Table: Overflow and column adjustments 
 https://stackblitz.com/edit/angular-ivy-o4jw3zov?file=src%2Fapp%2Fapp.component.ts
 
 https://angular-ivy-o4jw3zov.stackblitz.io/
+
+## Angular challenges
+https://angular-challenges.vercel.app/
+
+https://github.com/tomalaforge/angular-challenges
+
+
 
 ## Github marketplace (LLM models)
 
