@@ -55,6 +55,16 @@ https://github.com/fakepsyho
 
 https://x.com/FakePsyho/status/1605570944537280512
 
+## QBI Options (EXAMPLE)
+https://stackblitz.com/edit/angular-ivy-icdym4qb?file=src%2Fapp%2Fapp.component.ts
+
+https://angular-ivy-icdym4qb.stackblitz.io/
+
+
+# Table: Overflow and column adjustments 
+https://stackblitz.com/edit/angular-ivy-o4jw3zov?file=src%2Fapp%2Fapp.component.ts
+
+https://angular-ivy-o4jw3zov.stackblitz.io/
 
 ## Github marketplace (LLM models)
 
