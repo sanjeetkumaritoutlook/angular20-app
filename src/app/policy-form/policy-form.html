@@ -1,0 +1,35 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>Policy Name</label>
+  <input formControlName="policyName" type="text" />
+
+  <label>Manuscript Content (Rich Text)</label>
+  <textarea formControlName="manuscript_content" rows="10" placeholder="Paste TinyMCE output here"></textarea>
+
+  <label>Manuscript Body (Optional)</label>
+  <textarea formControlName="manuscript_body" rows="10"></textarea>
+
+  <button type="submit">Generate XML</button>
+</form>
+
+<!-- JSON output -->
+<!-- ✅ Show processed result on screen -->
+<div *ngIf="processedJsonString" style="margin-top: 1rem;">
+    <h3>Processed Output (JSON)</h3>
+  <textarea
+    [value]="processedJsonString"
+    readonly
+    rows="15"
+    style="width: 100%; font-family: monospace;"
+  ></textarea>
+</div>
+
+<!-- XML-like output -->
+<div *ngIf="processedXmlString" style="margin-top: 1rem;">
+  <h3>Processed Output (XML Format)</h3>
+  <textarea
+    [value]="processedXmlString"
+    readonly
+    rows="15"
+    style="width: 100%; font-family: monospace;"
+  ></textarea>
+</div>

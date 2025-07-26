@@ -8,9 +8,10 @@ import { Modal } from './modal/modal';
 import { CommonModule } from '@angular/common';
 import { FabricUi } from './fabric-ui/fabric-ui';
 import { NewExamples } from './new-examples/new-examples';
+import { PolicyForm } from './policy-form/policy-form';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,FabricUi,NewExamples],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
