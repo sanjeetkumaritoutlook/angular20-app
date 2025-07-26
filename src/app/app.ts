@@ -9,9 +9,10 @@ import { CommonModule } from '@angular/common';
 import { FabricUi } from './fabric-ui/fabric-ui';
 import { NewExamples } from './new-examples/new-examples';
 import { PolicyForm } from './policy-form/policy-form';
+import { Container } from './container/container';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm,Container],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
