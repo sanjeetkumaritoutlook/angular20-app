@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormView } from '../form-view/form-view';
 import { ResultView } from '../result-view/result-view';
+/*needing a parent component to orchestrate it.*/
 @Component({
   selector: 'app-container',
   imports: [CommonModule, FormView, ResultView],

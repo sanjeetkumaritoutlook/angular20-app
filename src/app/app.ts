@@ -10,9 +10,10 @@ import { FabricUi } from './fabric-ui/fabric-ui';
 import { NewExamples } from './new-examples/new-examples';
 import { PolicyForm } from './policy-form/policy-form';
 import { Container } from './container/container';
+import { Form1View } from './form1-view/form1-view';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm,Container],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm,Container,Form1View],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

@@ -1,0 +1,14 @@
+<ng-container *ngIf="!submitted">
+      <h2>Form View</h2>
+      <form [formGroup]="form" (ngSubmit)="submitForm()">
+        <label>Name: <input formControlName="name" /></label><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </ng-container>
+
+    <ng-container *ngIf="submitted">
+      <app-result1-view
+        [name]="form.value.name?? ''"
+        (goBack)="submitted = false"
+      ></app-result1-view>
+    </ng-container>
