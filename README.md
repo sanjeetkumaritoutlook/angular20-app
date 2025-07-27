@@ -71,7 +71,17 @@ https://angular-challenges.vercel.app/
 
 https://github.com/tomalaforge/angular-challenges
 
+## RxJS Visualizer (RxViz)
 
+https://rxviz.com/
+
+combineLatest, debounceTime,distinctUntilChanged, switchMap
+
+Apply debounceTime and distinctUntilChanged before combining with sort.
+
+API is called only after both search and sort values are available.
+
+https://stackblitz.com/edit/rxjs-f2ncpbwx?file=index.ts
 
 ## Github marketplace (LLM models)
 
