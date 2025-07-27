@@ -9,4 +9,6 @@ import { CommonModule } from '@angular/common';
 export class Result1View {
  @Input() name = '';
   @Output() goBack = new EventEmitter<void>();
+
+    show = false; //this is for ng-template example
 }

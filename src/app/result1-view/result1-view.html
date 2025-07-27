@@ -1,3 +1,26 @@
 <h2>Result View</h2>
     <p>✅ You submitted the form with: <strong>{{ name }}</strong></p>
     <button (click)="goBack.emit()">Go Back</button>
+
+    <h1>another example to demonstrate ng-template</h1>
+    <h2>ng-template is an Angular element used to declare template fragments that are not rendered immediately, but can be rendered later or conditionally.</h2>
+    <h3>ng-template content is not rendered until it's explicitly used (via *ngIf, ngTemplateOutlet, etc.)</h3>
+       <ng-template #templateRef>
+        <p>Hello Angular</p>
+        </ng-template>
+
+        <button (click)="show = !show">Toggle</button>
+
+        <div *ngIf="show; else templateRef">
+        <p>Hello World</p>
+        </div>
+
+       <ng-template #tmpl>
+        <p>This is dynamic</p>
+        </ng-template>
+
+        <div *ngIf="show">
+        <ng-container *ngTemplateOutlet="tmpl"></ng-container>
+        </div>
+   <h1>ng-content allows content projection — passing HTML from a parent into a child component.</h1>
+   <h2>With select, you can target specific elements or CSS selectors and project them into different slots.</h2>
