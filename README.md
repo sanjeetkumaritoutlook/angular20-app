@@ -87,6 +87,28 @@ API is called only after both search and sort values are available.
 
 https://stackblitz.com/edit/rxjs-f2ncpbwx?file=index.ts
 
+## Matt Deitke
+https://x.com/mattdeitke
+
+https://www.linkedin.com/in/mattdeitke/
+
+https://github.com/mattdeitke
+
+https://github.com/allenai/objaverse-xl
+
+https://mattdeitke.com/CV.pdf
+
+https://huongngo-8.github.io/
+
+https://github.com/huongngo-8/
+
+## geojson maps
+https://github.com/AshKyd/geojson-regions
+
+https://geojson-maps.kyd.au/
+
+https://github.com/AshKyd
+
 ## Github marketplace (LLM models)
 
 https://github.com/marketplace
