@@ -75,6 +75,20 @@ https://angular-challenges.vercel.app/
 
 https://github.com/tomalaforge/angular-challenges
 
+## Apollo 11 Moon code
+https://github.com/chrislgarry/Apollo-11
+
+https://www.youtube.com/watch?v=XHN6LV_1dWk
+
+https://github.com/chrislgarry
+
+https://github.com/mateuszchudyk
+
+https://github.com/FelixFrankFelix
+
+https://x.com/JournoMirror/status/1952731832107016379
+
+
 ## RxJS Visualizer (RxViz)
 
 https://rxviz.com/
