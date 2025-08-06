@@ -116,6 +116,23 @@ https://huongngo-8.github.io/
 
 https://github.com/huongngo-8/
 
+## Andrew Tulloch Pytorch
+https://github.com/ajtulloch
+
+https://tullo.ch/about/
+
+https://www.linkedin.com/in/andrew-tulloch-17238745
+
+https://github.com/trungvose/angular-spotify
+
+https://github.com/trungvose
+
+https://timesofindia.indiatimes.com/education/news/andrew-tulloch-education-qualifications-the-sydney-university-medalist-and-cambridge-topper-who-said-no-to-metas-1-5-billion-offer/articleshow/123091635.cms
+
+https://github.com/pytorch/pytorch
+
+https://www.businessinsider.com/microsoft-amazon-aws-azure-compare-cloud-giants-2025-7
+
 ## geojson maps
 https://github.com/AshKyd/geojson-regions
 
