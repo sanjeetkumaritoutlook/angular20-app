@@ -60,6 +60,14 @@ https://stackblitz.com/edit/angular-ivy-icdym4qb?file=src%2Fapp%2Fapp.component.
 
 https://angular-ivy-icdym4qb.stackblitz.io/
 
+https://stackblitz.com/edit/angular-ivy-ipmtrihq?file=src%2Fapp%2Fapp.component.ts
+
+https://angular-ivy-ipmtrihq.stackblitz.io/
+
+https://github.com/Jordan-Hall 
+
+https://x.com/JordanHall_dev/status/1953450910517977512
+
 ## QBI Forms
 https://stackblitz.com/edit/angular-ivy-5potvcgn?file=src%2Fapp%2Fapp.component.ts
 
@@ -69,6 +77,7 @@ https://angular-ivy-5potvcgn.stackblitz.io/
 https://stackblitz.com/edit/angular-ivy-o4jw3zov?file=src%2Fapp%2Fapp.component.ts
 
 https://angular-ivy-o4jw3zov.stackblitz.io/
+
 
 ## Angular challenges
 https://angular-challenges.vercel.app/

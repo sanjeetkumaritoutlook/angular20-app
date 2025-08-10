@@ -12,9 +12,11 @@ import { PolicyForm } from './policy-form/policy-form';
 import { Container } from './container/container';
 import { Form1View } from './form1-view/form1-view';
 import { Card } from './card/card';
+import { First } from './first/first';
+import { Second } from './second/second';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm,Container,Form1View,Card],
+  imports: [RouterOutlet,Product,Rte,Porsche,ChineseDs,Modal,CommonModule,PolicyForm,Container,Form1View,Card,First,Second,NewExamples,FabricUi],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
