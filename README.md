@@ -2,6 +2,10 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
 
+Angular template-driven form: https://stackblitz.com/edit/stackblitz-starters-ky2gyvkm?file=src%2Fmain.ts 
+
+https://github.com/ubicloud/ubicloud
+
 ## Set up Angular v20 application
 ```bash
 npm install -g @angular/cli@20
@@ -41,6 +45,16 @@ ng config schematics.@schematics/angular:component.suffix "Component"
 ng generate environments
 
 ng generate environments --development --staging
+
+Data Engineer
+
+Data warehouse (structured)
+
+Date Lake (unstructured)
+
+Data Analyst
+
+Data Scientist
 
 ## Przemysaw Debiak 
 Przemysław Debiak
