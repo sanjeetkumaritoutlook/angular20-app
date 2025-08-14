@@ -6,6 +6,17 @@ Angular template-driven form: https://stackblitz.com/edit/stackblitz-starters-ky
 
 https://github.com/ubicloud/ubicloud
 
+## github status
+https://www.githubstatus.com/incidents/c2psrbjsmrxr
+
+https://www.conventionalcommits.org/en/v1.0.0/
+
+## shield badges (like deployment, build status, test coverage, etc.)
+![Deploy](https://github.com/sanjeetkumaritoutlook/angular20-app/actions/workflows/deploy.yml/badge.svg)
+
+[![Deploy](https://github.com/sanjeetkumaritoutlook/angular20-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/sanjeetkumaritoutlook/angular20-app/actions/workflows/deploy.yml)
+
+
 ## Set up Angular v20 application
 ```bash
 npm install -g @angular/cli@20
