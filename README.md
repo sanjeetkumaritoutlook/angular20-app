@@ -6,6 +6,42 @@ Angular template-driven form: https://stackblitz.com/edit/stackblitz-starters-ky
 
 https://github.com/ubicloud/ubicloud
 
+## How to build your own RAG system
+
+You’ll need:
+
+- Vector DB (Pinecone, Weaviate, FAISS)
+
+- Embedding Model (OpenAI, Hugging Face)
+
+- Retriever (LangChain, BM25)
+
+- Generator (GPT-4, Claude, Mistral)
+
+- Framework (LangChain, LlamaIndex, Haystack)
+
+Stack example:
+
+LangChain + OpenAI + Pinecone + GPT-4
+
+ real-world use cases: 
+
+- internal team chatbots
+
+- customer support with real-time accuracy
+
+- legal & health assistants that cite exact policies
+
+- dev tools that answer from your wiki
+
+- powering tools like intercom, kimi, genspark behind the scenes
+
+Studio 3T: global-config-docdb (AWS DocumentDB (because it uses the MongoDB wire protocol))
+
+DB Visualizer : forms-management-db (postgres SQL)
+
+database Admin
+
 ## github status
 https://www.githubstatus.com/incidents/c2psrbjsmrxr
 
