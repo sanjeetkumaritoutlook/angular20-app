@@ -6,6 +6,8 @@ Angular template-driven form: https://stackblitz.com/edit/stackblitz-starters-ky
 
 https://github.com/ubicloud/ubicloud
 
+Angular signals are immutable: https://stackblitz.com/edit/stackblitz-starters-de2eprka?file=src%2Fmain.ts
+
 ## How to build your own RAG system
 
 You’ll need:
