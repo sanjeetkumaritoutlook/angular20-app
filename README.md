@@ -8,6 +8,8 @@ https://github.com/ubicloud/ubicloud
 
 Angular signals are immutable: https://stackblitz.com/edit/stackblitz-starters-de2eprka?file=src%2Fmain.ts
 
+Github repo status : https://repositorystats.com/stenciljs/core
+
 ## How to build your own RAG system
 
 You’ll need:
