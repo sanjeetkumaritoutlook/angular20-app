@@ -120,7 +120,7 @@ https://github.com/fakepsyho
 
 https://x.com/FakePsyho/status/1605570944537280512
 
-## QBI Options (EXAMPLE)
+## (EXAMPLE)
 https://stackblitz.com/edit/angular-ivy-icdym4qb?file=src%2Fapp%2Fapp.component.ts
 
 https://angular-ivy-icdym4qb.stackblitz.io/
@@ -133,7 +133,7 @@ https://github.com/Jordan-Hall
 
 https://x.com/JordanHall_dev/status/1953450910517977512
 
-## QBI Forms
+## Forms
 https://stackblitz.com/edit/angular-ivy-5potvcgn?file=src%2Fapp%2Fapp.component.ts
 
 https://angular-ivy-5potvcgn.stackblitz.io/
