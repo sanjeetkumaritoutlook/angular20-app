@@ -10,6 +10,11 @@ Angular signals are immutable: https://stackblitz.com/edit/stackblitz-starters-d
 
 Github repo status : https://repositorystats.com/stenciljs/core
 
+utilimate angular roadmap book v14 to v20: https://houseofangular.io/wp-content/uploads/2024/07/The_Ultimate_Guide_To_Angular_Evolution_Angular18.pdf
+
+angular love:  https://x.com/AngularLovePL/status/1955981508973330761
+
+
 ## How to build your own RAG system
 
 You’ll need:
@@ -48,6 +53,10 @@ database Admin
 
 
 Hyderabad Observatory: https://hyderabad.urbanobservatory.in/
+
+![Angular Roadmap](angularroadmap.jpg)
+
+Danieli
 
 ## Leetcode companywise questions
 
