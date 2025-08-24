@@ -46,6 +46,15 @@ DB Visualizer : forms-management-db (postgres SQL)
 
 database Admin
 
+
+Hyderabad Observatory: https://hyderabad.urbanobservatory.in/
+
+## Leetcode companywise questions
+
+https://github.com/snehasishroy/leetcode-companywise-interview-questions
+
+https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/description/
+
 ## github status
 https://www.githubstatus.com/incidents/c2psrbjsmrxr
 
