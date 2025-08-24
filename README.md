@@ -14,7 +14,7 @@ utilimate angular roadmap book v14 to v20: https://houseofangular.io/wp-content/
 
 angular love:  https://x.com/AngularLovePL/status/1955981508973330761
 
-
+https://github.com/HouseOfAngular/angular-developer-job-interview-questions-to-ask-companies
 ## How to build your own RAG system
 
 You’ll need:
