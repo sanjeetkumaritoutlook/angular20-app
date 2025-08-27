@@ -157,6 +157,14 @@ https://stackblitz.com/edit/angular-ivy-5potvcgn?file=src%2Fapp%2Fapp.component.
 
 https://angular-ivy-5potvcgn.stackblitz.io/
 
+## Manuscript
+
+https://stackblitz.com/edit/angular-ivy-jia8gwdb?file=src%2Fapp%2Fapp.component.ts
+
+https://angular-ivy-jia8gwdb.stackblitz.io/forms
+
+https://stackblitz.com/edit/angular-ivy-k2fxrtsf?file=src%2Fapp%2Fapp.component.ts
+
 ## Table: Overflow and column adjustments 
 https://stackblitz.com/edit/angular-ivy-o4jw3zov?file=src%2Fapp%2Fapp.component.ts
 
