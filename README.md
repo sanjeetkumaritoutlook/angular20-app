@@ -51,6 +51,11 @@ DB Visualizer : forms-management-db (postgres SQL)
 
 database Admin
 
+interview angular: https://www.angularspace.com/senior-angular-interview-questions/
+
+https://github.com/krivanek06
+
+Render Github App: https://github.com/apps/render
 
 Hyderabad Observatory: https://hyderabad.urbanobservatory.in/
 
