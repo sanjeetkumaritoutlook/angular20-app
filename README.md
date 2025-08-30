@@ -59,6 +59,8 @@ Render Github App: https://github.com/apps/render
 
 AWS Power Hour AI Practioner: https://www.linkedin.com/events/7364018884183523328/
 
+Live sky: https://theskylive.com/
+
 Hyderabad Observatory: https://hyderabad.urbanobservatory.in/
 
 ![Angular Roadmap](angularroadmap.jpg)
