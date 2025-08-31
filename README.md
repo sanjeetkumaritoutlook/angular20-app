@@ -59,6 +59,10 @@ Render Github App: https://github.com/apps/render
 
 AWS Power Hour AI Practioner: https://www.linkedin.com/events/7364018884183523328/
 
+AI Research: https://github.com/q-hwang
+
+https://q-hwang.github.io/
+
 Live sky: https://theskylive.com/
 
 Hyderabad Observatory: https://hyderabad.urbanobservatory.in/
