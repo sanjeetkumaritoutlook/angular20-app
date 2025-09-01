@@ -1,0 +1,65 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  @for (field of fields; track field.name) {
+    <div class="mb-3">
+
+      <!-- Input -->
+      @if (field.type === 'input') {
+        <label>{{ field.label }}</label>
+        <input [type]="field.inputType" [formControlName]="field.name" class="form-control">
+      }
+
+      <!-- Textarea -->
+      @if (field.type === 'textarea') {
+        <label>{{ field.label }}</label>
+        <textarea [formControlName]="field.name" class="form-control"></textarea>
+      }
+
+      <!-- Select -->
+      @if (field.type === 'select') {
+        <label>{{ field.label }}</label>
+        <select [formControlName]="field.name" class="form-control">
+          @for (option of field.options; track option) {
+            <option [value]="option">{{ option }}</option>
+          }
+        </select>
+      }
+
+      <!-- Radio -->
+      @if (field.type === 'radio') {
+        <label>{{ field.label }}</label><br>
+        @for (option of field.options; track option) {
+          <label class="me-2">
+            <input type="radio" [formControlName]="field.name" [value]="option"> {{ option }}
+          </label>
+        }
+      }
+
+      <!-- Checkbox -->
+      @if (field.type === 'checkbox') {
+        <label>{{ field.label }}</label><br>
+        @for (option of field.options; track option) {
+          <label class="me-2">
+            <input type="checkbox"
+                   [checked]="form.get(field.name)?.value.includes(option)"
+                   (change)="onCheckboxChange($event, field, option)"> {{ option }}
+          </label>
+        }
+      }
+
+      <!-- Date -->
+      @if (field.type === 'date') {
+        <label>{{ field.label }}</label>
+        <input type="date" [formControlName]="field.name" class="form-control">
+      }
+
+      <!-- Number -->
+      @if (field.type === 'number') {
+        <label>{{ field.label }}</label>
+        <input type="number" [formControlName]="field.name" class="form-control">
+      }
+
+    </div>
+  }
+
+  <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>

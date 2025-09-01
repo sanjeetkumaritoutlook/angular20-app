@@ -1,0 +1,14 @@
+{
+  "fields": [
+    { "type": "input", "label": "Full Name", "name": "fullName", "inputType": "text", "required": true },
+    { "type": "input", "label": "Email Address", "name": "email", "inputType": "email", "required": true },
+    { "type": "input", "label": "Password", "name": "password", "inputType": "password", "required": true },
+    { "type": "textarea", "label": "About You", "name": "about", "required": false },
+    { "type": "select", "label": "Country", "name": "country", "options": ["India", "USA", "UK"], "required": true },
+    { "type": "radio", "label": "Gender", "name": "gender", "options": ["Male", "Female", "Other"], "required": true },
+    { "type": "checkbox", "label": "Skills", "name": "skills", "options": ["Angular", "React", "Vue", "Node"], "required": false },
+    { "type": "date", "label": "Date of Birth", "name": "dob", "required": true },
+    { "type": "number", "label": "Experience (Years)", "name": "experience", "required": false },
+    { "type": "input", "label": "Phone Number", "name": "phone", "inputType": "tel", "required": false }
+  ]
+}

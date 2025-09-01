@@ -1,0 +1,10 @@
+/* large-form.component.css */
+form {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+div {
+  margin-bottom: 8px;
+}

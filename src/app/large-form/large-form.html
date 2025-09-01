@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  @for (field of fields; track field) {
+    <div>
+      <label>{{ field | titlecase }}</label>
+      <input type="text" [formControlName]="field" />
+    </div>
+  }
+
+  <button type="submit">Submit</button>
+</form>

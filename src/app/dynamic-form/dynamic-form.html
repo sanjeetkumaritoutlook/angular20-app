@@ -1,0 +1,56 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  @for (field of schema; track field.name) {
+    <div class="form-group">
+      <label [for]="field.name">{{ field.label }}</label>
+
+      @switch (field.type) {
+        @case ('text') {
+          <input type="text" [id]="field.name" [formControlName]="field.name" [placeholder]="field.placeholder || ''" />
+        }
+
+        @case ('number') {
+          <input type="number" [id]="field.name" [formControlName]="field.name" [placeholder]="field.placeholder || ''" />
+        }
+
+        @case ('date') {
+          <input type="date" [id]="field.name" [formControlName]="field.name" />
+        }
+
+        @case ('select') {
+          <select [id]="field.name" [formControlName]="field.name">
+            <option value="">Select {{ field.label }}</option>
+            @for (option of field.options!; track option) {
+              <option [value]="option">{{ option }}</option>
+            }
+          </select>
+        }
+
+        @case ('radio') {
+          @for (option of field.options!; track option) {
+            <label>
+              <input type="radio" [value]="option" [formControlName]="field.name" />
+              {{ option }}
+            </label>
+          }
+        }
+
+        @case ('checkbox') {
+          @for (option of field.options!; track option) {
+            <label>
+              <input type="checkbox"
+                     [checked]="form.get(field.name)?.value?.includes(option)"
+                     (change)="onCheckboxChange(field.name, option, $event)" />
+              {{ option }}
+            </label>
+          }
+        }
+
+        @case ('textarea') {
+          <textarea [id]="field.name" [formControlName]="field.name" [placeholder]="field.placeholder || ''"></textarea>
+        }
+      }
+    </div>
+  }
+
+  <button type="submit">Submit</button>
+</form>

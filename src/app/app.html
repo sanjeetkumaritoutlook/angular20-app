@@ -23,7 +23,9 @@
 <app-chinese-ds></app-chinese-ds>
 
 <button (click)="openModal()">Open Modal</button>
-<app-modal  *ngIf="showModal" (modalClosed)="handleModalClosed()"></app-modal>
+@if (showModal) {
+  <app-modal (modalClosed)="handleModalClosed()"></app-modal>
+}
 <app-policy-form></app-policy-form>
 <h1>more examples</h1>
 <app-container></app-container>
@@ -36,6 +38,12 @@
 </app-card>
 <app-first></app-first>
 <app-second></app-second>
+<h4>large form generator of same type of fields</h4>
+<app-large-form></app-large-form>
+<h4>dynamic form generator of different type of fields</h4>
+<app-dynamic-form></app-dynamic-form>
+<h4>dynamic schema form generator of different type of fields</h4>
+<!-- <app-dynamic-schema-form></app-dynamic-schema-form> -->
 <!-- <app-new-examples></app-new-examples> -->
 <!-- <app-fabric-ui></app-fabric-ui> -->
 
