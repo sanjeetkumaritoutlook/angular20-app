@@ -13,7 +13,7 @@ export class LargeForm {
   fields: string[] = [];
 
   constructor(private fb: FormBuilder) {
-    this.generateForm(100); // generate 100 fields
+    this.generateForm(20); // generate 20 same type of fields
   }
 
   generateForm(count: number) {

@@ -49,6 +49,11 @@
           <textarea [id]="field.name" [formControlName]="field.name" [placeholder]="field.placeholder || ''"></textarea>
         }
       }
+
+      <!-- ✅ Error message -->
+      @if (field.required && form.get(field.name)?.touched && form.get(field.name)?.invalid) {
+        <div class="error">⚠️ {{ field.label }} is required</div>
+      }
     </div>
   }
 

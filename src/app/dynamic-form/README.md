@@ -34,3 +34,5 @@ enhancements:
 how to make this form schema-driven from an external JSON file (so you don’t hardcode fields in TS, but load them dynamically from backend or config)
 
 use Angular Material UI (with <mat-form-field>, mat-select, mat-radio-group, mat-datepicker), so it looks modern instead of plain HTML?
+
+o add real-time validation (errors shown immediately when the user leaves a required field), or only after submit?

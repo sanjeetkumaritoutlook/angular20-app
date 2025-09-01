@@ -72,11 +72,15 @@ export class DynamicForm {
   }
 
   onSubmit() {
-    if (this.form.valid) {
-      console.log('✅ Form Values:', this.form.value);
-      alert('Form submitted successfully! Check console for values.');
-    } else {
-      alert('Form is invalid. Please fill all required fields.');
-    }
+  if (this.form.invalid) {
+    // Mark all fields as touched to trigger errors
+    this.form.markAllAsTouched();
+    alert('Form is invalid. Please fill all required fields.');
+    return;
   }
+
+  console.log('✅ Form Values:', this.form.value);
+  alert('Form submitted successfully! Check console for values.');
+}
+
 }
