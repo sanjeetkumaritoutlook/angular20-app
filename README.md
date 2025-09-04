@@ -170,6 +170,12 @@ https://stackblitz.com/edit/angular-ivy-5potvcgn?file=src%2Fapp%2Fapp.component.
 
 https://angular-ivy-5potvcgn.stackblitz.io/
 
+## file-upload with table props
+
+https://stackblitz.com/edit/angular-ivy-2fbobmuw?file=src%2Fapp%2Fforms-management%2Fmanuscript-modal%2Fmanuscript-modal.component.ts
+
+https://angular-ivy-2fbobmuw.stackblitz.io/forms
+
 ## Manuscript
 
 https://stackblitz.com/edit/angular-ivy-jia8gwdb?file=src%2Fapp%2Fapp.component.ts
