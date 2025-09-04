@@ -88,7 +88,14 @@ https://www.conventionalcommits.org/en/v1.0.0/
 
 [![Deploy](https://github.com/sanjeetkumaritoutlook/angular20-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/sanjeetkumaritoutlook/angular20-app/actions/workflows/deploy.yml)
 
+## Angular 21
 
+https://stackblitz.com/edit/angular-form-array-directive?file=src%2Fmain.ts
+
+
+![rxjs operators](rxjs_operators.png)
+
+![angular 20](angular_20.jpeg)
 ## Set up Angular v20 application
 ```bash
 npm install -g @angular/cli@20
