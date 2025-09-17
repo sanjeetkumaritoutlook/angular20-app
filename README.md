@@ -488,6 +488,19 @@ alternative design system: https://zardui.com/
 https://www.npmjs.com/package/ng-zorro-antd
 
 https://github.com/zard-ui/zardui
+
+## Install
+
+You can use either **npm** or **pnpm**:
+
+```sh
+# with npm
+npm install
+
+# with pnpm
+pnpm install
+```
+
 ## Development server
 
 To start a local development server, run:
