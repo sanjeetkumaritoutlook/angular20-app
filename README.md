@@ -483,6 +483,11 @@ https://www.npmjs.com/package/@fabric-msft/fabric-angular
 https://www.npmjs.com/package/@fabric-msft/fabric-web?activeTab=readme
 
 
+alternative design system: https://zardui.com/
+
+https://www.npmjs.com/package/ng-zorro-antd
+
+https://github.com/zard-ui/zardui
 ## Development server
 
 To start a local development server, run:
