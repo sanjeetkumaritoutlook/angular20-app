@@ -48,6 +48,8 @@ LLM Prompts and AI IDE setup
 
 https://angular.dev/ai/develop-with-ai
 
+https://blog.angular.dev/beyond-the-horizon-how-angular-is-embracing-ai-for-next-gen-apps-7a7ed706e1a3
+
 - Do NOT use the `@HostBinding` and `@HostListener` decorators. Put host bindings inside the `host` object of the `@Component` or `@Directive` decorator instead
 
 
