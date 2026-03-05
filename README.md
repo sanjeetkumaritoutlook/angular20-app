@@ -556,3 +556,8 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Externalstate in fluid form
+https://stackblitz.com/edit/angular-ivy-h56fftki?file=src%2Fapp%2Fapp.component.ts
+
+full page view: https://angular-ivy-h56fftki.stackblitz.io/
