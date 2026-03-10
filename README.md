@@ -561,3 +561,21 @@ For more information on using the Angular CLI, including detailed command refere
 https://stackblitz.com/edit/angular-ivy-h56fftki?file=src%2Fapp%2Fapp.component.ts
 
 full page view: https://angular-ivy-h56fftki.stackblitz.io/
+
+## form on each step in stepper
+
+
+FLUID Stepper: Form (duplicated)
+
+https://stackblitz.com/edit/angular-ivy-dwwlddvh?file=src%2Fapp%2Fsandbox%2Fsandbox.component.ts
+
+FLUID Stepper: Form Validation w/ Custom Nav (EXAMPLE) (duplicated)
+https://stackblitz.com/edit/angular-ivy-dyqwpvsy?file=src%2Fapp%2Fsandbox%2Fsandbox.component.ts
+
+FLUID Stepper: Form Validation (EXAMPLE) (duplicated)
+
+https://stackblitz.com/edit/angular-ivy-qyzosvrk?file=src%2Fapp%2Fsandbox%2Fsandbox.component.ts
+
+Fluid Stepper | custom Icon status (duplicated)
+
+https://stackblitz.com/edit/react-ts-goys6frz?file=fluid.ts,index.tsx
